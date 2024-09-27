@@ -1,0 +1,1638 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.resonate-header {
+    max-width: 1921px;
+    height: 111px;
+    background-color: #f4f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 36px;
+}
+
+.resonate-btn {
+    display: flex;
+}
+
+.resonate-btn .sign-up {
+    margin-right: 5px;
+}
+
+.resonate-btn .sign-up button {
+    background: #CA3845;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    text-wrap: nowrap;
+}
+
+.resonate-btn .sign-up button a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.login p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.36px;
+    text-align: left;
+    color: #CA3845;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.login img {
+    width: 14px;
+    height: 7px;
+    top: 60px;
+    gap: 0px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+/* here i am gonna writing media query for responsive design */
+@media (max-width: 576px) {
+
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .resonate-header {
+        max-width: 576px;
+    }
+
+    .sign-up {
+        display: none;
+    }
+
+    .login {
+        background-color: #CA3845;
+        /* Bootstrap primary button color */
+        color: white;
+        padding: 0;
+        border: none;
+        border-radius: 5px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 40px;
+    }
+
+    .login-p,
+    .login-img {
+        display: flex;
+        /* Hide the inner divs */
+    }
+
+    .login::before {
+        content: 'Login';
+        display: inline-block;
+    }
+}
+
+
+
+/* here i am gonna designing main */
+
+/* here i am gonna styling welcome section */
+main .welcome {
+    text-align: center;
+}
+
+.first-img img {
+    margin-top: 20px;
+    width: 350px;
+    height: 36px;
+}
+
+.reward {
+    font-family: Inter;
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 78.4px;
+    text-align: center;
+}
+
+.Reward {
+    color: #CA3845;
+}
+
+.dollar-sign-box {
+    margin-top: 15px;
+}
+
+.dollar-sign-box .dollar-img {
+    display: flex;
+    justify-content: center;
+}
+
+.right-arrow {
+    width: auto;
+    height: 50px;
+    border: 2px 0px 0px 0px;
+    opacity: 0px;
+    /* rotate:-87.59.0deg; */
+}
+
+.dollar {
+    display: flex;
+    margin-left: 300px;
+}
+
+.dollarImg {
+    width: 90px;
+    height: 90px;
+    top: 309px;
+    left: 914px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.dollar-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20.16px;
+    text-align: center;
+}
+
+.Vector4 {
+    width: 18px;
+    height: 27.04px;
+    border: 3px 0px 0px 0px;
+    margin-left: 400px;
+    margin-top: 60px;
+}
+
+/* here i am gonna styling what is resonate section */
+#back-img {
+    background-image: url(./assets/welcome-background.png);
+    background-size: cover;
+}
+
+.what {
+    display: flex;
+    height: 500px;
+
+}
+
+/* here i am gonna wrting html for welcome part */
+@media (max-width:576px) {
+    .reward {
+        font-size: 50px;
+    }
+
+    #back-img {
+        background-image: unset;
+    }
+
+    .vector-img {
+        display: none;
+    }
+
+    .welcome {
+        height: 580px;
+    }
+
+    .dollar {
+        display: flex;
+        margin-left: 0;
+    }
+}
+
+.star-img {
+    position: relative;
+    margin-left: 300px;
+    max-width: 80px;
+}
+
+.spring img {
+    position: relative;
+    width: 120px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 200px;
+}
+
+.spring-text {
+    position: relative;
+    width: 399px;
+    height: 213px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.girls-image {
+    position: relative;
+    width: 400px;
+    height: 350px;
+    margin-left: -200px;
+    border: 10px solid #000000;
+    border-radius: 10px;
+}
+
+.girls-image-background {
+    position: relative;
+    width: 200px;
+    height: 400px;
+    right: -230px;
+    top: 25px;
+}
+
+.girls-image-btn {
+    position: relative;
+    width: 42px;
+    height: 42px;
+    top: -160px;
+    left: -220px;
+    /* top: 600px;
+    left: 1000px; */
+    cursor: pointer;
+}
+
+/* here  i am gonna writing media query for star image section*/
+@media(max-width:576px) {
+
+    .star-img,
+    .spring img {
+        display: none;
+    }
+
+    .girls-image {
+        border: none;
+        margin-left: 0;
+        border-radius: 10px;
+        margin-left: 40px;
+    }
+
+    .girls-image-background {
+        display: none;
+    }
+
+    .girls-image-btn {
+        position: relative;
+        width: 42px;
+        height: 42px;
+        cursor: pointer;
+    }
+
+    .spring-text {
+        position: relative;
+        width: 399px;
+        height: 213px;
+        margin-left: 20px;
+        margin-top: 0;
+        text-align: center;
+    }
+
+}
+
+/* here it is going to start the what can resonate section styling */
+#what-is {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44.8px;
+    text-align: left;
+}
+
+#question-mark {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 44.8px;
+    text-align: left;
+
+}
+
+.spring-text p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.spring-text ul {
+    font-family: Inter;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.click {
+    color: #000000;
+    font-style: normal;
+    font-weight: bold;
+}
+
+/* here i am gonna media query for what section */
+@media(max-width:576px) {
+    .what {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .girls-image-background {
+        display: none;
+    }
+
+    .spring-text p {
+        text-align: left;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .spring-text ul {
+        text-align: left;
+        margin-left: 60px;
+    }
+
+}
+
+/* here i am gonna styling who can resonate with */
+#who {
+    display: flex;
+    justify-content: space-between;
+}
+
+.who-can-main {
+    margin-left: 350px;
+}
+
+#what-can {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#reso {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+    color: #CA3845;
+}
+
+#with {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+/* here i am gonna writing media query for who section */
+@media(max-width:576px) {
+    .who-can-main {
+        margin-left: 40px;
+        margin-top: 20px;
+        /* text-align: center; */
+    }
+
+    #reso {
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 900;
+        color: #000000;
+        /* overflow-wrap: break-word; */
+        /* word-break: break-all; */
+    }
+
+    #what-can {
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 900;
+        text-align: center;
+    }
+
+    #with {
+        position: relative;
+        font-family: Inter;
+        font-size: 35px;
+        font-weight: 900;
+        display: block;
+        left: 30px;
+    }
+
+    #reso-img {
+        position: relative;
+        top: -35px;
+        left: 130px;
+    }
+}
+
+/* here i am gonna designing doonar text area */
+#main-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#nani {
+    width: 380px;
+    height: 250px;
+}
+
+#leftlines {
+    width: 35px;
+    position: relative;
+    top: 10px;
+    left: -20px;
+}
+
+#group262 {
+    position: relative;
+    width: 37px;
+    top: -140px;
+    left: 210px;
+}
+
+#donor {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.main-text p {
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 40px;
+}
+
+.main-text {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.main-text .donor-button{
+    display: flex;
+}
+
+.main-text ul {
+    text-wrap: nowrap;
+}
+
+.main-text ul li {
+    line-height: 15px;
+    font-size: 12px;
+    margin-left: 25px;
+}
+
+#register-today {
+    position: relative;
+    top: 50px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #CA3845;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+}
+
+#left-arrow-main {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+#image6 {
+    position: relative;
+    width: 280px;
+    height: 10px;
+    top: -10px;
+    left: 40px;
+}
+
+/* here i am gonna writing html for nani section part one */
+@media(max-width:576px) {
+    #leftlines {
+        display: none;
+    }
+    #main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #main-img {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #donor {
+        position: relative;
+        top: -430px;
+        left: 70px;
+        font-size: 24px;
+        font-weight: 900;
+        /* margin: 20px 0; */
+    }
+    .main-text img {
+        position: relative;
+        top: -430px;
+        left: 70px;
+        /* margin-bottom: 20px; */
+    }
+
+    #group262 {
+        position: relative;
+        top: -170px;
+        left: 10px;
+        /* margin: 20px 0; */
+    }
+    #nani {
+        height: 300px;
+    }
+
+    #image6 {
+        display: none;
+    }
+
+    .main-text {
+        display: flex;
+        flex-direction: column;
+        /* align-items: center;
+        text-align: center; */
+    }
+    .main-text p {
+        position: relative;
+        font-size: 18px;
+        top: -150px;
+        left: -10px;
+    }
+
+    .main-text ul {
+        position: relative;
+        top: -140px;
+        left: -10px;
+        padding:0 20px;
+        text-wrap: wrap;
+    }
+    .main-text ul li{
+        font-size: 18px;
+        line-height: 20px;
+        text-wrap: wrap;
+    }
+
+    #register-today {
+        position: relative;
+        top: -100px;
+        left: -30px;
+        width:150px;
+        height: 40px;
+        text-align:left;
+    }
+
+    #left-arrow-main {
+        position: relative;
+        top: -130px;
+        left: 0;
+        width: 60px;
+        height: 40px;
+    }
+}
+
+/* here i am gonna cneter part */
+#center-part {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.main-text-button{
+    display: flex;
+}
+.main-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-part .main-text-part {
+    margin-right: 50px;
+}
+
+.main-part .main-text-part #content-provider {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 26.88px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+
+.main-text-part ul {
+    text-wrap: nowrap;
+}
+
+.main-text-part ul li {
+    margin-left: 25px;
+    font-size: 12px;
+}
+
+.main-text-part p {
+    font-family: Inter;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.main-text-part #paragraph {
+    text-wrap: nowrap;
+    font-style: italic;
+}
+
+.main-img-part #singing-girl {
+    width: 380px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.main-img-part #rightarrowa {
+    width: 35px;
+    position: relative;
+    top: 15px;
+    left: 390px;
+}
+
+.main-img-part #girlsblackbtn {
+    position: relative;
+    width: 35px;
+    top: -150px;
+    left: 180px;
+}
+
+#image67 {
+    position: relative;
+    width: 280px;
+    height: 10px;
+    top: -10px;
+}
+
+/* here i am gonna writing media query for center part */
+@media(max-width:576px) {
+    #center-part {
+        max-width: 576px;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .main-part {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .main-part {
+        display: flex;
+        justify-content: space-between;
+        flex-direction:column-reverse;
+        align-content: center;
+    }
+
+    .main-img-part #rightarrowa {
+        display: none;
+    }
+
+    .main-img-part #girlsblackbtn {
+        position: relative;
+        width: 35px;
+        top: 150px;
+        left: 100px;
+    }
+    #image67 {
+       display: none;
+    }
+    .Content-Provider{
+        position: relative;
+        top: -430px;
+    }
+    .main-img-part #singing-girl {
+        position: relative;
+        width: 380px;
+        height: 250px;
+        border-radius: 15px;
+        top: -100px;
+    }
+    .main-text-paragraph{
+        text-align: left;
+        position: relative;
+        top: -130px;
+        margin-left: 20px;
+    }
+    .main-text-paragraph p{
+        margin-left: 20px;
+        font-size: 18px;
+        margin-top: -5px;
+    }
+    .main-text-paragraph ul{
+        margin-left: 30px;
+    }
+    .main-text-paragraph ul li{
+        font-size: 18px;
+        line-height: 25px;
+        text-wrap: wrap;
+    }
+    .main-text-paragraph #paragraph{
+        position: relative;
+        top: 20px;
+        text-wrap: wrap;
+        font-size: 18px;
+        margin-left: 20px;
+    }
+    .main-text-button{
+        margin-top: 20px;
+    }
+}
+
+/* here i am gonna styling last section part */
+#last-section {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+}
+.webhost-btn{
+    display: flex;
+}
+#last-section-main-content {
+    display: flex;
+}
+
+#last-section-main-img {
+    margin-right: 50px;
+}
+
+#mamu {
+    width: 380px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#last-lines {
+    width: 35px;
+}
+
+.last-section-main-text p {
+    font-family: Inter;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.last-section-main-text ul {
+    font-size: 12px;
+}
+
+.last-section-main-text ul li {
+    margin-left: 25px;
+}
+
+.last-section-main-text #future-benefits {
+    text-wrap: nowrap;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+#last-lines {
+    position: relative;
+    width: 35px;
+    top: 15px;
+    left: -25px;
+}
+
+#mamu-button {
+    position: relative;
+    width: 35px;
+    top: -150px;
+    left: 180px;
+}
+
+#last-img {
+    position: relative;
+    width: 280px;
+    height: 10px;
+    top: -10px;
+}
+
+/* here i am gonna writing media query for last part of three section area */
+@media(max-width:576px) {
+    #last-section {
+        max-width: 576px;
+        margin: auto;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    #last-section-main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #last-lines {
+        display: none;
+    }
+
+    #mamu-button {
+        position: relative;
+        width: 35px;
+        top: -150px;
+        left: -100px;
+    }
+    .webhost{
+        display: flex;
+        position: relative;
+        top: -400px;
+        left: 100px;
+        margin-left: 20px;
+    }
+    #WEBHOST{
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: bold;
+        margin-right: 10px;
+    }
+    #last-img{
+        display: none;
+    }
+    #mamu{
+        display: flex;
+        align-self: center;
+        position: relative;
+        left: 20px;
+        top: -30px;
+    }
+    #mamu-button {
+        position: relative;
+        width: 35px;
+        top: -150px;
+        left: 0;
+    }
+    .webhost-paragraph {
+        position: relative;
+        text-align: left;
+        top: -100px;
+    }
+    .webhost-paragraph p{
+        margin-left: 40px;
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    .webhost-paragraph ul{
+        margin-left: 40px;
+        text-wrap: wrap;
+    }
+    .webhost-paragraph ul li{
+        font-size: 18px;
+        margin-left: 30px;
+        line-height: 25px;
+        text-wrap: wrap;
+    }
+    .webhost-paragraph #future-benefits{
+        position: relative;
+        top: 20px;
+        left: 30px;
+        font-size: 18px;
+        text-wrap: wrap;
+    }
+    .webhost-btn{
+        display: flex;
+        position: relative;
+        top: 40px;
+    }
+}
+
+/* here i am gonna styling step 1 container */
+.container-step1 {
+    margin-top: 50px;
+    background-color: #000000;
+    color: #fff;
+    max-height: 500px;
+    overflow: hidden;
+    /* Ensure no content overflows the container */
+}
+
+.container-step1 h1 {
+    text-align: center;
+}
+
+.container-step1 h1 span {
+    color: #CA3845;
+}
+
+.container-step1 #ClickTip™ {
+    padding-top: 50px;
+}
+
+.container-step1 #rade {
+    width: 45px;
+    position: relative;
+    left: 1100px;
+    top: -20px;
+}
+
+#step1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.step1-part1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 300px;
+    height: fit-content;
+}
+
+.step2-part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.step2-text-part {
+    padding: 10px 60px 0 20px;
+}
+
+.step2-text-part h1 {
+    font-family: Inter;
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.step2-button-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 130px;
+    padding: 0 10px;
+}
+
+#step2-btn-sign-up {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background-color: #CA3845;
+    color: #fff;
+    font-family: Inter;
+}
+
+#laptopgirl {
+    width: 350px;
+    height: 300px;
+}
+
+#hearts {
+    position: relative;
+    width: 180px;
+    height: 100px;
+    top: -280px;
+    left: 60px;
+}
+
+#preety-girl {
+    width: 150px;
+    height: 300px;
+    position: relative;
+    left: -170px;
+}
+
+.step2-img {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px;
+}
+
+#arrow-img {
+    width: 70px;
+    height: 25px;
+}
+
+#dots-img {
+    position: relative;
+    top: 5px;
+    left: 20px;
+    width: 30px;
+    height: 7px;
+}
+
+#white-star {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+#white-spring {
+    width: 100px;
+    height: 180px;
+    margin-left: 30px;
+}
+
+.background-images {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+/* Left background image */
+.left-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 300px;
+    height: 100%;
+    background: url('./assets/elipse33.png') no-repeat center center;
+    background-size: cover;
+    /* z-index: 1; */
+}
+
+/* Right background image */
+.right-bg {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+    background: url('./assets/Ellipse 32.png') no-repeat center center;
+    background-size: cover;
+    /* background-color: #CA3845; */
+}
+
+/* here i am gonna writing media query for step1 container section */
+@media(max-width:576px) {
+    .container-step1 {
+        margin-top: 0;
+        max-height: fit-content;
+        overflow: hidden;
+    }
+    #white-star , #white-spring, #arrow-img,#preety-girl{
+      display: none;
+    }
+    .container-step1 #ClickTip™ {
+        padding-top: 50px;
+        font-size: 50px;
+        text-wrap: wrap;
+        font-weight: 900;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #step1 {
+        display: flex;
+        margin-top: 30px;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .background-images {
+        display: none;
+    }
+
+    .left-bg,
+    .right-bg {
+        display: none;
+    }
+    #laptopgirl{
+        position: relative;
+        display: flex;
+        top: -330px;
+        width: 430px;
+        height: 400px;
+    }
+    #hearts{
+        position: relative;
+        top: -680px;
+        width: 220px;
+    }
+    #dots-img{
+        position: relative;
+        top: 170px;
+        left: -160px;
+    }
+    .step2-text-part{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 470px;
+    }
+    .step2-text-part h1{
+        font-size: 40px;
+        font-weight: 900;
+    }
+    .step2-text-part p{
+        font-size: 20px;
+        text-wrap: wrap;
+        color: #C7C7C7;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    #step2-btn-sign-up{
+        position: relative;
+        top: 400px;
+        width: 200px;
+        height: 50px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+
+/* here i am gonna design the connect section */
+.connect-container {
+    background-color: #E6E6E6;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.connect-container h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.connect-container h1 span {
+    color: #CA3845;
+}
+
+#smily-girl {
+    width: 500px;
+    height: 500px;
+}
+
+#smily-girl-btn {
+    position: relative;
+    top: -300px;
+    left: 230px;
+}
+
+#connect {
+    max-width: 900px;
+    margin: auto;
+    display: flex;
+}
+
+.connect-img {
+    width: 500px;
+    height: 500px;
+}
+
+.connect-form {
+    font-family: Inter;
+    background-color: #fff;
+    margin: 0;
+    width: 360px;
+    height: 500px;
+    padding: 10px 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group .icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.input-group .icon img {
+    width: 20px;
+    height: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 20px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+.input-group input::placeholder {
+    font-size: 12px;
+}
+
+button {
+    font-family: Inter;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #CA3845;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+#Message {
+    width: 100%;
+    height: 100px;
+}
+
+#Message::placeholder {
+    position: relative;
+    top: -25px;
+    left: -20px;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 12px;
+}
+
+/* here i am gonna writing media query for connect form section */
+@media(max-width:576px) {
+    .connect-container h1{
+        font-size: 50px;
+        font-weight:900;
+        padding:0 30px;
+        text-wrap: wrap;
+    }
+    #smily-girl {
+        width:430px;
+        height: 300px;
+        position: relative;
+        left: 27px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    #smily-girl-btn {
+        position: relative;
+        top: -110px;
+        left: -210px;
+    }
+
+    #connect {
+        max-width: 576px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .connect-img {
+        width: 500px;
+        height: 300px;
+    }
+    .connect-form {
+        font-family: Inter;
+        background-color: #fff;
+        margin: 0;
+        width: 430px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+        border-top-right-radius:0;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .connect-form h1{
+        font-size: 40px;
+        font-weight: 900;
+        text-wrap: nowrap;
+        margin-top: 50px;
+    }
+    .input-group input,
+    .input-group select {
+        width: 100%;
+        padding: 20px 10px 20px 40px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        font-size: 12px;
+    }   
+    .input-group input::placeholder, .input-group select{
+        font-size: 18px;
+    } 
+    button {
+        font-family: Inter;
+        padding: 15px;
+        border: none;
+        border-radius: 8px;
+        background-color: #CA3845;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+        width: 200px;
+        text-align: center;
+        margin-left: 100px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+/* here i am gonna design the footer section of iresonate */
+footer {
+    max-height: 400px;
+    background-color: #000000;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+#footer-elipse-left,
+#footer-elipse-right {
+    width: 250px;
+    height: 300px;
+}
+
+.footer-part2 {
+    width: 300px;
+    height: 300px;
+    padding: 50px 60px 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#white-iresonate-text {
+    width: 130px;
+    height: 20px;
+}
+
+.footer-part2 p {
+    font-size: 12px;
+    color: #C7C7C7;
+}
+
+.footer-part2 .number {
+    color: #C7C7C7;
+    padding-left: 10px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#support {
+    text-decoration: underline;
+}
+
+.footer-message {
+    display: flex;
+    font-size: 12px;
+}
+
+.footer-call {
+    display: flex;
+    font-size: 12px;
+    position: relative;
+    top: -20px;
+}
+
+.footer-message img,
+.footer-call img {
+    width: 20px;
+}
+
+.footer-part3 {
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+}
+
+.footer-part3 nav {
+    display: flex;
+    padding: 15px 0;
+    border-top: 0.1px solid #ccc;
+    border-bottom: 0.1px solid #ccc;
+}
+
+.footer-part3 nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-part3 ul li {
+    list-style: none;
+    padding: 15px;
+    color: #C7C7C7;
+    font-size: 12px;
+}
+
+#Home {
+    color: #CA3845;
+}
+
+nav p {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.follow-us {
+    display: flex;
+    margin-top: 30px;
+}
+
+.follow-us p {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+.follow-us-text {
+    position: relative;
+    left: 200px;
+    display: flex;
+}
+
+.follow-us-text span img {
+    padding-left: 10px;
+}
+
+.all-rights-reserved {
+    text-align: center;
+    font-size: 12px;
+    color: #C7C7C7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    background-color: #111111;
+    border: 1px solid #ccc;
+}
+
+/* here i am  gonna writing media query for footer section */
+@media(max-width:576px) {
+    footer {
+        max-height: fit-content;
+    }
+    #footer-elipse-left,
+    #footer-elipse-right {
+        display: none;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+        height: auto;
+    }
+
+    .footer-part3 {
+        width: 400px;
+        height: auto;
+        padding-top:0;
+    }
+    .footer-part4{
+        display: none;
+    }
+    
+    .follow-us {
+        display: flex;
+        margin-top:0;
+    }
+    .follow-us-text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .follow-us-text span{
+        position: relative;
+        left: -20px;
+        top: 10px;
+    }
+    .footer-part3 {
+        width: 100%;
+        height: auto;
+        padding-top:0;
+    }
+    
+    .footer-part3 nav {
+        display: flex;
+        flex-direction: column;
+        padding: 15px 0;
+        border-top: 0;
+        border-bottom:0;
+    }
+    
+    .footer-part3 nav ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .footer-part3 ul li {
+        list-style: none;
+        padding: 15px;
+        color: #C7C7C7;
+        font-size: 18px;
+    }
+    #white-iresonate-text {
+        width: 130px;
+        height: 20px;
+    }   
+    .footer-part2 {
+        width: 100%;
+        height: auto;
+        padding:0;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-self: center;
+    }  
+    .footer-part2 p {
+        font-size: 18px;
+        color: #C7C7C7;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+    
+    .footer-part2 .number {
+        color: #C7C7C7;
+        padding-left: 10px;
+        font-size: 18px;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+    #white-iresonate-text {
+        align-self: center;
+        margin-top: 50px;
+        width: 200px;
+        height: 27px;
+    } 
+    .footer-message {
+        margin-top: 10px;
+        display: flex;
+        font-size: 14px;
+        align-self: center;
+    }
+    
+    .footer-call {
+        display: flex;
+        font-size: 12px;
+        position: relative;
+        top:0;
+        align-self: center;
+    }   
+    .footer-message img,
+    .footer-call img {
+        width: 25px;
+        margin-top: 10px;
+    }
+    .footer-message img{
+        margin-left: -20px;
+    }
+    
+}
